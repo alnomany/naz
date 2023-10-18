@@ -1,0 +1,28 @@
+{
+    "name" : "HexFashion",
+    "description" : "fashion theme",
+    "author" : "Suzon",
+    "version" : "1.0.0",
+    "screenshot" : "",
+    "footerHook" : [
+        {
+            "script" : [],
+            "style" : [],
+            "blade" : ["emails.admin-pass-reset"]
+        }
+    ],
+    "pageBuilderAddonClasses" : [
+        "\\Plugins\\PageBuilder\\Addons\\Tenants\\ThemeTwo\\Header\\HeaderOne::class"
+    ],
+    "headerHook" : [
+        {
+            "script" : [],
+            "style" : [],
+            "blade" : []
+        }
+    ],
+    "overrideTemplate" : {
+        "cart" : "cart_page"
+    }
+}
+
